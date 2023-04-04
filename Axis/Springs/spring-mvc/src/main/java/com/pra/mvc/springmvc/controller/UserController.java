@@ -50,7 +50,7 @@ public class UserController {
         return mv;
     }
 
-    @GetMapping("/show")
+    @GetMapping("/show") // http://localhost:8080/user/show
     public String showRegForm() {
         return "createuser";
     }
