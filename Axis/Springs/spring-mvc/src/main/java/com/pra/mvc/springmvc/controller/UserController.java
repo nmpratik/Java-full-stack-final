@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.pra.mvc.springmvc.entity.User;
@@ -61,6 +62,11 @@ public class UserController {
         mv.addObject("eml", user.getEmail());
         
         return mv;
+    }
+
+    @PostMapping("/createv2")
+    public String createUserV2(@RequestParam Integer id, @RequestParam String name, @RequestParam String email, @RequestParam String mobile) {
+        return "success";
     }
 
     @GetMapping("/show") // http://localhost:8080/user/show
