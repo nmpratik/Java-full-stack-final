@@ -1,4 +1,4 @@
-package com.pra.crud.controller;
+package com.pra.crud.dto;
 
 import lombok.Builder;
 import lombok.Getter;

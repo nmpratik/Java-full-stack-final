@@ -1,4 +1,4 @@
-package com.pra.crud.controller;
+package com.pra.crud.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
