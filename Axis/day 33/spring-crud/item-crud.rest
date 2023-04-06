@@ -18,7 +18,8 @@ content-type: application/json
 "id" : 12, "name" : "pqr", "category" : "lmn", "price" : 489.90
 }
 ###
-DELETE http://localhost:8080/item/12 HTTP/1.1 content-type: application/json
+DELETE http://localhost:8080/item/12 HTTP/1.1
+content-type: application/json
 
 {
 "id" : 12, "name" : "pqr", "category" : "lmn", "price" : 489.90
