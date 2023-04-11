@@ -13,7 +13,7 @@ import com.pra.soap.gen.GetCountryResponse;
 @Endpoint
 public class CountryEndpoint {
     
-    private static final String NAMESPACE_URI = "http://soap.ani.com/gen";
+    private static final String NAMESPACE_URI = "http://soap.pra.com/gen";
 
     @PayloadRoot(
         namespace = NAMESPACE_URI,
