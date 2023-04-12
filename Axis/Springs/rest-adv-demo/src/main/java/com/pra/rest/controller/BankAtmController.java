@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pra.rest.domain.BankAccount;
 import com.pra.rest.dto.AppResponse;
 import com.pra.rest.dto.BankAccountDto;
 import com.pra.rest.service.BankAccountService;
