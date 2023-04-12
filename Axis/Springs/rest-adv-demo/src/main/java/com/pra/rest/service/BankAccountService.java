@@ -1,12 +1,15 @@
 package com.pra.rest.service;
 
-import com.pra.rest.domain.BankAccount;
+import java.util.Collection;
+
+import com.pra.rest.dto.BankAccountDto;
 
 public interface BankAccountService {
  
-    Integer createNewAccount(BankAccount account);
+    Integer createNewAccount(BankAccountDto account);
 
-    
+    Collection<BankAccountDto> listAllAccounts();
 }
+
 
 
