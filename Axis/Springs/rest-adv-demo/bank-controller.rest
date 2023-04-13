@@ -8,5 +8,13 @@ POST http://localhost:8080/atm/ HTTP/1.1
 content-type: application/json
 
 {
-"id" : 13, "owner" : "lmn", "balance" : 78.90
+"id" : 18, "owner" : "opl", "balance" : 852
 }
+
+### Create New Account
+
+# PUT http://localhost:8080/atm/ HTTP/1.1 
+# content-type: application/json
+# {
+# "id" : 18, "owner" : "plo", "balance" : 465
+# }
