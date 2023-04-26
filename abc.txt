@@ -1,5 +1,0 @@
-check in
-git config --global user.name "nmpratik"
-git config --global user.email nmprathik@gmail.com
-
-hai
